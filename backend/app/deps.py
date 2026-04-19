@@ -21,7 +21,7 @@ async def get_current_user(
     if not session_id:
         return None
 
-    session_data = await session_store.get_session(session_id)
+    session_data = session_store.get_session(session_id)
     if not session_data or "user_data" not in session_data:
         return None
 

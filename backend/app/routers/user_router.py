@@ -23,7 +23,7 @@ def get_db():
         db.close()
 
 
-user_router = APIRouter(prefix="/user", tags=["用户管理"])
+user_router = APIRouter(prefix="/user", tags=["userRouter"])
 
 
 @user_router.post("/register", summary="用户注册")
