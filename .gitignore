@@ -1,0 +1,51 @@
+# ---------------
+# 全局环境配置
+# ---------------
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ---------------
+# Python 后端
+# ---------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志
+logs/
+*.log
+
+# ---------------
+# Vue 前端
+# ---------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# 编辑器
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 浏览器缓存
+*.map
